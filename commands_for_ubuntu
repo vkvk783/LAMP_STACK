@@ -1,0 +1,14 @@
+   12  sudo apt-get install apache2 php5 php5-cli libapache2-mod-php5 php5-dev
+   13  wget http://localhost
+   14  cd /var/www/html/
+   15  ls
+   16  vim index.php
+   17  vim /etc/php5/cli/php.ini 
+   18  sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+   19  sudo apt-get install phpmyadmin
+   20  wget http://localhost/phpmyadmin
+   21  vim /etc/phpmyadmin/config.inc.php 
+   22  wget http://localhost/phpmyadmin
+   23  vim /etc/php5/cli/php.ini 
+   24  sudo apt-get install php5-mcrypt php5-xdebug php5-curl php5-sqlite php5-xsl php-pear php-apc
+   25  vim /etc/apache2/mods-enabled/php5.load
